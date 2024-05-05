@@ -11,7 +11,7 @@ abstract class Task
     protected $completed;
 
 
-    //Methods 
+    //Methods construct actually works as setters here 
 
     public function __construct($title, $description)
     {
