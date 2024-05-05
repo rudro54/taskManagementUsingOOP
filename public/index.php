@@ -7,7 +7,7 @@ include 'autoloader.php';
 
 
 $task1 = new TaggedDeadlineTask('Task 1', 'Should be done withing next week', '04-10-2023', '07-04-2023');
-var_dump($task1);
+
 
 $task1->addTags('Front End');
 $task1->addTags('Contact Page');
