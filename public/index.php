@@ -44,4 +44,11 @@ foreach ($tasks as $task) {
 $task1->markAsCompleted();
 echo "After marking task one as completed \n";
 
-echo "Completed :" . ($task1->isCompleted() ? 'Yes' : 'No') . PHP_EOL;
+echo "Task One Completed :" . ($task1->isCompleted() ? 'Yes' : 'No') . PHP_EOL;
+
+$task2->markAsCompleted();
+echo "After marking task two as completed\n";
+echo "Task Two Completed :" . ($task2->isCompleted() ? 'Yes' : 'No') . PHP_EOL;
+
+
+
